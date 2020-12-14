@@ -25,7 +25,7 @@
             Telefon: {{ jobDetail.contactPhone.countryCallingCode }}
             {{ jobDetail.contactPhone.number }}
           </div>
-          <div>
+          <div class="d-flex flex-column align-items-end">
             <span>{{ jobDetail.address }}</span>
             <span>{{ jobDetail.cityName }}</span>
           </div>

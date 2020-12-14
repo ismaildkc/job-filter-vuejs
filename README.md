@@ -3,6 +3,8 @@
 
 Kullanıcın istediği lokasyon ve anahtar kelimeye göre iş ilanı listeleyip ilanın detayını görebildiği vue js uygulaması.
 Arama sonuçları (listesi) state'te tutularak, kullanıcı detay sayfasından, liste ekranına döndüğünde son aradığı sonuçlara erişmesi sağlanmıştır.
+Proje http://localhost:8080/ adresinde ayağa kalkacaktır.
+```
 
 
 ## Proje Kurulumu
@@ -35,8 +37,8 @@ json-server --watch db.json
 
 ### Api URL
 ```
-http://localhost:3000/jobList
-http://localhost:3000/jobDetail
-http://localhost:3000/version
-http://localhost:3000/statusCode
+http://localhost:3000/jobList 
+http://localhost:3000/jobDetail 
+http://localhost:3000/version 
+http://localhost:3000/statusCode 
 ```
