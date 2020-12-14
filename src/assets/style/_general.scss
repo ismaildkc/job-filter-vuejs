@@ -1,0 +1,54 @@
+body,html {
+  color: #222222;
+  font-size: 15px;
+  line-height: 1.8;
+  -webkit-font-smoothing: antialiased;
+  @media (max-width: 768px){
+    font-size: 12px;
+  }
+}
+
+.h3, h3 {
+  font-size: 1.45rem;
+}
+
+#app{
+  margin: 10vh 0 0;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.content-container{
+  border-radius: 16px;
+  background-color: white;
+  box-shadow: 0 16px 50px -12px rgb(0,0,0,33%);
+  padding: 1rem;
+  margin-top: 2rem;
+  .content-wrapper{
+    max-height: 65vh;
+    overflow: auto;
+  }
+  .list-item{
+    padding: 1rem;
+    border-radius: 1rem;
+    transition: all .2s;
+    &:hover{
+      background: #f7f7f7;
+    }
+  }
+}
+
+.border-b{
+  border-bottom: 1px solid #e4e4e4;
+}
+
+.durationDay{
+  background: #e6e6e6;
+  padding: 0 0.7rem;
+  border-radius: 1rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
