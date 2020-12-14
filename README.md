@@ -1,24 +1,22 @@
 # job-filter-vuejs
 
-## Project setup
+## Proje Kurulumu
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Proje Ayağa Kaldırmak İçin
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Minify ve production
 ```
 npm run build
 ```
 
-### Lints and fixes files
+### Lint ve fix'ler
 ```
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
